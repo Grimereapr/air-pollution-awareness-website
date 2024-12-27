@@ -1,0 +1,7 @@
+{
+  "city": "Mock City",
+  "data": {
+    "aqi": 75,
+    "status": "Moderate"
+  }
+}
