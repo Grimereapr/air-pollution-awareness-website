@@ -1,0 +1,19 @@
+{
+  "about": {
+    "causes": [
+      "Industrial emissions",
+      "Vehicle exhaust",
+      "Deforestation"
+    ],
+    "effects": [
+      "Respiratory diseases",
+      "Climate change",
+      "Reduced biodiversity"
+    ],
+    "solutions": [
+      "Using renewable energy",
+      "Promoting public transport",
+      "Reforestation efforts"
+    ]
+  }
+}
