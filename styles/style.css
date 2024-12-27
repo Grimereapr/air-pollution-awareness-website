@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #009688;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+#aqi-checker {
+  text-align: center;
+}
+
+#city-input {
+  padding: 0.5em;
+  width: 200px;
+}
+
+#check-aqi {
+  padding: 0.5em;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#check-aqi:hover {
+  background-color: #00796b;
+}
