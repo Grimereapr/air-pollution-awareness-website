@@ -1,7 +1,56 @@
 {
-  "city": "Mock City",
+  "city": "Ahmedabad",
   "data": {
-    "aqi": 75,
+    "aqi": 245,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Bangalore",
+  "data": {
+    "aqi": 90,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Chennai",
+  "data": {
+    "aqi": 54,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Hyderabad",
+  "data": {
+    "aqi": 106,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Kolkata",
+  "data": {
+    "aqi": 190,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Mumbai",
+  "data": {
+    "aqi": 138,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "New Delhi",
+  "data": {
+    "aqi": 281,
+    "status": "Moderate"
+  }
+}
+{
+  "city": "Pune",
+  "data": {
+    "aqi": 270,
     "status": "Moderate"
   }
 }
