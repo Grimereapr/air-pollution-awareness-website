@@ -1,56 +1,44 @@
 {
-  "city": "Ahmedabad",
-  "data": {
-    "aqi": 245,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Bangalore",
-  "data": {
-    "aqi": 90,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Chennai",
-  "data": {
-    "aqi": 54,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Hyderabad",
-  "data": {
-    "aqi": 106,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Kolkata",
-  "data": {
-    "aqi": 190,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Mumbai",
-  "data": {
-    "aqi": 138,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "New Delhi",
-  "data": {
-    "aqi": 281,
-    "status": "Moderate"
-  }
-}
-{
-  "city": "Pune",
-  "data": {
-    "aqi": 270,
-    "status": "Moderate"
-  }
+  "cities": [
+    {
+      "name": "Delhi",
+      "aqi": 200,
+      "status": "Very Unhealthy"
+    },
+    {
+      "name": "Mumbai",
+      "aqi": 95,
+      "status": "Moderate"
+    },
+    {
+      "name": "Kolkata",
+      "aqi": 180,
+      "status": "Unhealthy"
+    },
+    {
+      "name": "Bangalore",
+      "aqi": 60,
+      "status": "Good"
+    },
+    {
+      "name": "Chennai",
+      "aqi": 145,
+      "status": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "name": "Hyderabad",
+      "aqi": 125,
+      "status": "Unhealthy for Sensitive Groups"
+    },
+    {
+      "name": "Pune",
+      "aqi": 75,
+      "status": "Moderate"
+    },
+    {
+      "name": "Ahmedabad",
+      "aqi": 105,
+      "status": "Moderate"
+    }
+  ]
 }
