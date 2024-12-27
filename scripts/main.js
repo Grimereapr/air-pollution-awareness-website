@@ -1,4 +1,12 @@
 // Fetch the content from the mock AQI JSON file
+fetch('data/content.json')
+  .then(response => response.json())
+  .then(data => {
+    const { about } = data;
+    document.getElementById('causes').innerHTML = `<h3>Causes</h3>${about.causes.map(item => `<p>${item}</p>`).join('')}`;
+    document.getElementById('effects').innerHTML = `<h3>Effects</h3>${about.effects.map(item => `<p>${item}</p>`).join('')}`;
+    document.getElementById('solutions').innerHTML = `<h3>Solutions</h3>${about.solutions.map(item => `<p>${item}</p>`).join('')}`;
+  });
 fetch('mock/mock-aqi.json')
   .then(response => response.json())
   .then(data => {
