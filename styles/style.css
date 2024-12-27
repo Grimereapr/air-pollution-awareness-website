@@ -1,13 +1,15 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fair-pollution-background&psig=AOvVaw3SlddI2DaYUILtovkvrKo1&ust=1735372476834000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJj44bS8x4oDFQAAAAAdAAAAABAE");
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
   background-color: #009688;
-  color: #fff;
+  color: white;
   padding: 1em 0;
   text-align: center;
 }
@@ -16,10 +18,16 @@ main {
   padding: 2em;
 }
 
+/* Section Styling */
 section {
   margin-bottom: 2em;
+  padding: 1em;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* AQI Checker Styles */
 #aqi-checker {
   text-align: center;
 }
@@ -27,16 +35,58 @@ section {
 #city-input {
   padding: 0.5em;
   width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 #check-aqi {
-  padding: 0.5em;
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
   background-color: #009688;
-  color: #fff;
+  color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 #check-aqi:hover {
   background-color: #00796b;
+}
+
+#aqi-result {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* City List Styling */
+.city-list {
+  margin-top: 1em;
+}
+
+.city {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #e8f5e9;
+}
+
+.city h3 {
+  margin: 0;
+  color: #00796b;
+}
+
+.city p {
+  margin: 0.5em 0;
+}
+
+@media (max-width: 768px) {
+  #city-input {
+    width: 100%;
+  }
 }
