@@ -2,7 +2,19 @@
   "about": {
     "causes": [
       "Industrial emissions",
+      "Industrial emissions are a significant source of air pollution, 
+      releasing harmful substances into the atmosphere during manufacturing 
+      and energy production processes. Factories and power plants often emit 
+      pollutants like carbon dioxide (CO₂), sulfur dioxide (SO₂), nitrogen 
+      oxides (NOₓ), and particulate matter, which can degrade air quality and 
+      harm human health. These emissions result from the burning of fossil 
+      fuels, chemical processing, and waste incineration. The release of 
+      volatile organic compounds (VOCs) and heavy metals further exacerbates 
+      environmental issues, contributing to smog, acid rain, and climate change. 
+      Reducing industrial emissions through cleaner technologies and stricter 
+      regulations is vital for mitigating air pollution and its effects.",
       "Vehicle exhaust",
+      "
       "Deforestation"
     ],
     "effects": [
